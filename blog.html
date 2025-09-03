@@ -1,0 +1,63 @@
+<!DOCTYPE html><html lang="en"><head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="icon" href="images/KritS.png">
+    <link rel="stylesheet" href="css/style_1.css">
+</head>
+<body>
+    <header id="topbar">
+        <nav class="container">
+            <a class="brand" href="..">
+                <img src="images/KritS.png" alt="Logo" class="logo">
+                <span>KritS</span>
+            </a>
+
+            <button id="tb-hamburger" aria-label="Menu" aria-expanded="false" aria-controls="tb-nav">
+                <span></span><span></span><span></span>
+            </button>
+
+            <ul id="tb-nav">
+                <li><a href="..">Home</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <main>     
+        <section class="section alt">
+            <div class="container">
+                <div class="blog-row">
+                    <article class="blog-card">
+                        <div class="media-wrap">
+                            <button class="media-btn cover" data-src="img/posn2568.jpg"></button>
+                        </div>
+                        <header class="blog-header">
+                            <h3 class="blog-title">POSN 2568</h3>
+                            <time class="blog-date">31 August 2025</time>
+                        </header>
+                        <p class="blog-excerpt">POSN was difficult and challenging at the same time. However I manage to get 4-5 correctly!</p>
+                    </article>
+                </div>
+            </div>
+        </section>
+    </main>
+    
+    <footer id="footer">
+        <div class="container">
+            <p>© 2025 KritS. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <div class="modal" aria-hidden="true">
+        <div class="modal-backdrop"></div>
+        <div class="modal-body" role="dialog" aria-modal="true" aria-label="Media viewer">
+            <button class="modal-close" aria-label="Close">×</button>
+            <img id="imgModal" alt="">
+            <video id="vidModal" playsinline="" controls=""></video>
+        </div>
+    </div>
+
+    <script src="js/index_1.js"></script>
+
+
+</body></html>
