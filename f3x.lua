@@ -1772,12 +1772,10 @@ local function GBPY_fake_script() -- TextButton_17.LocalScript
 	
 	button.MouseButton1Click:Connect(function()
 		print("Button clicked!")
-		local ReplicatedStorage = game:GetService("ReplicatedStorage")
-		local RequestCommand = ReplicatedStorage:WaitForChild("HDAdminHDClient").Signals.RequestCommandSilent
-	
-		RequestCommand:InvokeServer("sm team IDE is back...")
-	end)
-end
+		local args = {
+		  ";r6"
+		}
+		game:GetService("ReplicatedStorage"):WaitForChild("HDAdminClient"):WaitForChild("Signals"):WaitForChild("RequestCommand"):InvokeServer(unpack(args))
 coroutine.wrap(GBPY_fake_script)()
 local function TIESWRW_fake_script() -- TextButton_18.LocalScript 
 	local script = Instance.new('LocalScript', TextButton_18)
@@ -1785,11 +1783,8 @@ local function TIESWRW_fake_script() -- TextButton_18.LocalScript
 	local button = script.Parent
 	
 	button.MouseButton1Click:Connect(function()
-		print("Button clicked!")
-		local ReplicatedStorage = game:GetService("ReplicatedStorage")
-		local RequestCommand = ReplicatedStorage:WaitForChild("HDAdminHDClient").Signals.RequestCommandSilent
-	
-		RequestCommand:InvokeServer("char all Kaonaba")
-	end)
-end
+		local args = {
+   		  ";char all Kaonaba"
+		}
+		game:GetService("ReplicatedStorage"):WaitForChild("HDAdminClient"):WaitForChild("Signals"):WaitForChild("RequestCommand"):InvokeServer(unpack(args))
 coroutine.wrap(TIESWRW_fake_script)()
