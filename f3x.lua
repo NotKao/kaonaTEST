@@ -3,7 +3,7 @@
 
 -- Instances:
 
-local _1x3x5x6f3x = Instance.new("ScreenGui")
+local _ide = Instance.new("ScreenGui")
 local main = Instance.new("Frame")
 local TextLabel = Instance.new("TextLabel")
 local TextButton = Instance.new("TextButton")
@@ -27,13 +27,13 @@ local TextButton_18 = Instance.new("TextButton")
 
 --Properties:
 
-_1x3x5x6f3x.Name = "1x3x5x6 f3x"
+_1x3x5x6f3x.Name = "ide f3x"
 _1x3x5x6f3x.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
 _1x3x5x6f3x.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
 _1x3x5x6f3x.ResetOnSpawn = false
 
 main.Name = "main"
-main.Parent = _1x3x5x6f3x
+main.Parent = _ide
 main.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
 main.BorderColor3 = Color3.fromRGB(255, 0, 0)
 main.BorderSizePixel = 3
@@ -862,7 +862,7 @@ local function UGBESER_fake_script() -- TextButton_3.LocalScript
 				end
 			end 
 		end
-		spam("91323528832227")
+		spam("17494003009")
 	end)
 end
 coroutine.wrap(UGBESER_fake_script)()
@@ -1775,7 +1775,7 @@ local function GBPY_fake_script() -- TextButton_17.LocalScript
 		local ReplicatedStorage = game:GetService("ReplicatedStorage")
 		local RequestCommand = ReplicatedStorage:WaitForChild("HDAdminHDClient").Signals.RequestCommandSilent
 	
-		RequestCommand:InvokeServer(";sm 1x3x5x6 is back...")
+		RequestCommand:InvokeServer(";sm team IDE is back...")
 	end)
 end
 coroutine.wrap(GBPY_fake_script)()
