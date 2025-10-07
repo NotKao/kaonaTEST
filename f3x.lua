@@ -39,16 +39,6 @@ TextLabel.Text = "ide f3x"
 TextLabel.TextColor3 = Color3.fromRGB(255, 255, 255)
 TextLabel.TextSize = 32.000
 
-TextButton.Parent = main
-TextButton.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-TextButton.BorderColor3 = Color3.fromRGB(0, 0, 0)
-TextButton.BorderSizePixel = 0
-TextButton.Size = UDim2.new(0, 137, 0, 50)
-TextButton.Font = Enum.Font.SourceSans
-TextButton.Text = "Get f3x btools"
-TextButton.TextColor3 = Color3.fromRGB(0, 0, 0)
-TextButton.TextSize = 14.000
-
 TextButton_2.Parent = main
 TextButton_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 TextButton_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
