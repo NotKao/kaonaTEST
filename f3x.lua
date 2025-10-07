@@ -1640,9 +1640,9 @@ local function PGCX_fake_script() -- TextButton_8.LocalScript
 		local ReplicatedStorage = game:GetService("ReplicatedStorage")
 		local RequestCommand = ReplicatedStorage:WaitForChild("HDAdminHDClient").Signals.RequestCommandSilent
 	
-		RequestCommand:InvokeServer(";music 1836785840")
-		RequestCommand:InvokeServer(";pitch 1.22")
-		RequestCommand:InvokeServer(";volume inf")
+		RequestCommand:InvokeServer("music 1836785840")
+		RequestCommand:InvokeServer("pitch 1.22")
+		RequestCommand:InvokeServer("volume inf")
 	end)
 end
 coroutine.wrap(PGCX_fake_script)()
@@ -1656,7 +1656,7 @@ local function QUZI_fake_script() -- TextButton_9.LocalScript
 		local ReplicatedStorage = game:GetService("ReplicatedStorage")
 		local RequestCommand = ReplicatedStorage:WaitForChild("HDAdminHDClient").Signals.RequestCommandSilent
 	
-		RequestCommand:InvokeServer(";speed me 50")
+		RequestCommand:InvokeServer("speed me 50")
 	end)
 end
 coroutine.wrap(QUZI_fake_script)()
@@ -1670,7 +1670,7 @@ local function VNRSCOK_fake_script() -- TextButton_10.LocalScript
 		local ReplicatedStorage = game:GetService("ReplicatedStorage")
 		local RequestCommand = ReplicatedStorage:WaitForChild("HDAdminHDClient").Signals.RequestCommandSilent
 	
-		RequestCommand:InvokeServer(";god me")
+		RequestCommand:InvokeServer("god me")
 	end)
 end
 coroutine.wrap(VNRSCOK_fake_script)()
@@ -1684,9 +1684,9 @@ local function UGFFC_fake_script() -- TextButton_11.LocalScript
 		local ReplicatedStorage = game:GetService("ReplicatedStorage")
 		local RequestCommand = ReplicatedStorage:WaitForChild("HDAdminHDClient").Signals.RequestCommandSilent
 	
-		RequestCommand:InvokeServer(";music 77484784570543")
-		RequestCommand:InvokeServer(";pitch 0.184")
-		RequestCommand:InvokeServer(";volume inf")
+		RequestCommand:InvokeServer("music 77484784570543")
+		RequestCommand:InvokeServer("pitch 0.184")
+		RequestCommand:InvokeServer("volume inf")
 	end)
 end
 coroutine.wrap(UGFFC_fake_script)()
@@ -1714,10 +1714,10 @@ local function BWMHTUT_fake_script() -- TextButton_13.LocalScript
 		local ReplicatedStorage = game:GetService("ReplicatedStorage")
 		local RequestCommand = ReplicatedStorage:WaitForChild("HDAdminHDClient").Signals.RequestCommandSilent
 	
-		RequestCommand:InvokeServer(";fogcolor black")
-		RequestCommand:InvokeServer(";fog 400000")
-		RequestCommand:InvokeServer(";undisco")
-		RequestCommand:InvokeServer(";time 0")
+		RequestCommand:InvokeServer("fogcolor black")
+		RequestCommand:InvokeServer("fog 400000")
+		RequestCommand:InvokeServer("undisco")
+		RequestCommand:InvokeServer("time 0")
 	end)
 end
 coroutine.wrap(BWMHTUT_fake_script)()
@@ -1731,9 +1731,9 @@ local function UZDBLE_fake_script() -- TextButton_14.LocalScript
 		local ReplicatedStorage = game:GetService("ReplicatedStorage")
 		local RequestCommand = ReplicatedStorage:WaitForChild("HDAdminHDClient").Signals.RequestCommandSilent
 	
-		RequestCommand:InvokeServer(";music 82490517845599")
-		RequestCommand:InvokeServer(";pitch 0.95")
-		RequestCommand:InvokeServer(";volume inf")
+		RequestCommand:InvokeServer("music 82490517845599")
+		RequestCommand:InvokeServer("pitch 0.95")
+		RequestCommand:InvokeServer("volume inf")
 	end)
 end
 coroutine.wrap(UZDBLE_fake_script)()
@@ -1775,7 +1775,7 @@ local function GBPY_fake_script() -- TextButton_17.LocalScript
 		local ReplicatedStorage = game:GetService("ReplicatedStorage")
 		local RequestCommand = ReplicatedStorage:WaitForChild("HDAdminHDClient").Signals.RequestCommandSilent
 	
-		RequestCommand:InvokeServer(";sm team IDE is back...")
+		RequestCommand:InvokeServer("sm team IDE is back...")
 	end)
 end
 coroutine.wrap(GBPY_fake_script)()
@@ -1789,7 +1789,7 @@ local function TIESWRW_fake_script() -- TextButton_18.LocalScript
 		local ReplicatedStorage = game:GetService("ReplicatedStorage")
 		local RequestCommand = ReplicatedStorage:WaitForChild("HDAdminHDClient").Signals.RequestCommandSilent
 	
-		RequestCommand:InvokeServer(";char me lnspector_G4dget")
+		RequestCommand:InvokeServer("char all Kaonaba")
 	end)
 end
 coroutine.wrap(TIESWRW_fake_script)()
