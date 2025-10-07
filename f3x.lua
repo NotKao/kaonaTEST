@@ -27,10 +27,10 @@ local TextButton_18 = Instance.new("TextButton")
 
 --Properties:
 
-_1x3x5x6f3x.Name = "ide f3x"
-_1x3x5x6f3x.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
-_1x3x5x6f3x.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
-_1x3x5x6f3x.ResetOnSpawn = false
+_ide.Name = "ide f3x"
+_ide.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+_ide.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+_ide.ResetOnSpawn = false
 
 main.Name = "main"
 main.Parent = _ide
@@ -47,7 +47,7 @@ TextLabel.BorderColor3 = Color3.fromRGB(0, 0, 0)
 TextLabel.BorderSizePixel = 0
 TextLabel.Size = UDim2.new(0, 486, 0, 33)
 TextLabel.Font = Enum.Font.SciFi
-TextLabel.Text = "1x3x5x6 f3x"
+TextLabel.Text = "ide f3x"
 TextLabel.TextColor3 = Color3.fromRGB(255, 255, 255)
 TextLabel.TextSize = 32.000
 
