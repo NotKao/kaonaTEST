@@ -1,5 +1,5 @@
 -- kiddo loves Kaonaba🥶🤓
--- kiddo needs image id : 2184817907
+-- kiddo needs image id : 17494003009
 --its id image urmom🥶💦👵🏻🤑🤑
 --omgg plspsl update 0.111111111191919
 local G2L = {};
@@ -1489,7 +1489,7 @@ local script = G2L["f"];
 				end
 			end 
 		end
-		spam("2184817907")
+		spam("17494003009")
 	end)
 	
 	coroutine.wrap(ZYJPOKE_fake_script)()
@@ -3840,7 +3840,7 @@ local script = G2L["27"];
 				end
 			end
 		end
-		Sky("2184817907")
+		Sky("17494003009")
 	
 	end)
 end;
@@ -4906,7 +4906,7 @@ task.spawn(C_3c);
 local h = Instance.new("Hint")
 h.Parent = Workspace 
 h.Text = "made by Kaonaba"
-wait(9999999999999)
+wait(5)
 h:Remove()
 
 return G2L["1"], require;
